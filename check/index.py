@@ -95,6 +95,7 @@ def get_current_hand_cards(groups=None,card_regions=None):
         ]
 
     hand_cards = []
+    cards = []
 
     # 自动展开多个数组组合成一个大数组
     card_templates = []
@@ -105,10 +106,12 @@ def get_current_hand_cards(groups=None,card_regions=None):
         img = pyautogui.screenshot(region=region)
         card_name = match_card(img,card_templates)
 
+        cards.append(card_name)
         if card_name !="未知卡牌":
             hand_cards.append({
                 "card_name":card_name,
                 "region":region
             })
 
+    print("检测到卡牌："+" | ".join(cards))
     return hand_cards

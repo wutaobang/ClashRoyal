@@ -22,12 +22,11 @@ room_inter_position = [(168, 579), (262, 575)]
 def Deploy_troops(cards,stormtrooper,ranged_soldier,enemy,back_row):
     if not cards:
         time.sleep(1)
-        print("⚠ 无可用卡牌出牌（全是未知卡牌）")
         return
 
     selected_card = random.choice(cards)
     card_name =selected_card["card_name"]
-    print(selected_card)
+    print("准备部署："+card_name)
     # 获取卡牌中心坐标
     x, y, w, h= selected_card["region"]
     center = (x + w // 2, y + h // 2)

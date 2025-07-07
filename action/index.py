@@ -52,7 +52,16 @@ def continue_game():
             home = check_interface((6, 39, 425, 134),"home")
             if home:
                 pyautogui.click(219, 645)
-                break
+                while True:
+                    time.sleep(5)
+                    box = check_interface((24, 44, 397, 71), "box",0.6)
+                    if box:
+                        pyautogui.click(216, 702)
+                    else:
+                        break
+            # else:
+                # break
+            time.sleep(2)
 
 def drag_card_to(center, release_position, hold_time=0.05, move_time=0.3, delay_after=1):
     """

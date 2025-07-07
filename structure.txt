@@ -1,0 +1,67 @@
+卷 OS 的文件夹 PATH 列表
+卷序列号为 DA87-3967
+C:.
+│  .gitignore
+│  deploytroops.py
+│  main.py
+│  position.py
+│  README.md
+│  structure.txt
+│  test.py
+│  
+├─.idea
+│  │  .gitignore
+│  │  autoClashRoyal.iml
+│  │  misc.xml
+│  │  modules.xml
+│  │  vcs.xml
+│  │  workspace.xml
+│  │  
+│  └─inspectionProfiles
+│          profiles_settings.xml
+│          Project_Default.xml
+│          
+├─action
+│  │  index.py
+│  │  __init__.py
+│  │  
+│  └─__pycache__
+│          index.cpython-37.pyc
+│          __init__.cpython-37.pyc
+│          
+├─check
+│  │  color.py
+│  │  index.py
+│  │  
+│  └─__pycache__
+│          color.cpython-37.pyc
+│          index.cpython-37.pyc
+│          
+├─picture
+│  ├─deck
+│  │      Barrel.png
+│  │      DarkPrince.png
+│  │      Fireball.png
+│  │      Giant.png
+│  │      Lumber.png
+│  │      Minions.png
+│  │      Rocket.png
+│  │      Skarmy.png
+│  │      SpearGobs.png
+│  │      Tombstone.png
+│  │      Wiz.png
+│  │      
+│  └─interface
+│          box.png
+│          finish.png
+│          finish2.png
+│          home.png
+│          ruins.png
+│          Snipaste_2025-07-07_01-49-42.png
+│          start.png
+│          tower.png
+│          
+└─__pycache__
+        deploytroops.cpython-37.pyc
+        VisionUtils.cpython-37.pyc
+        
