@@ -21,7 +21,7 @@ room_inter_position = [(168, 579), (262, 575)]
 # 兵种部署位置分析
 def Deploy_troops(cards,stormtrooper,ranged_soldier,enemy,back_row):
     if not cards:
-        time.sleep(1)
+        time.sleep(0.8)
         return
 
     selected_card = random.choice(cards)
